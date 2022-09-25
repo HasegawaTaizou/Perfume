@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Oswald", sans-serif;
+  font-weight: bolder;
+}
+
+header {
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+  background-color: black;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header nav a {
+  margin-left: 32px;
+  color: white;
+}
+
+.usuario a {
+  color: white;
+  margin-right: 32px;
+}
+
+span {
+  color: white;
+}
+
+main {
+  height: 74vh;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 20px;
+  background-image: url(../img/imagem-fundo.png);
+  position: relative;
+}
+
+.perfume {
+  width: 40vw;
+}
+
+.perfume p {
+  margin-left: 300px;
+}
+
+.texto-perfume {
+  font-size: 3.5rem;
+  padding-top: 200px;
+  padding-bottom: 80px;
+}
+
+.texto-perfume-transparente {
+  -webkit-text-stroke-width: 2px; /* largura da borda */
+  -webkit-text-stroke-color: #000;
+  color: transparent;
+}
+
+.comprar {
+  letter-spacing: 0.5px;
+  margin-left: 40px;
+}
+
+.perfume1 {
+  position: absolute;
+  width: 400px;
+  height: 530px;
+  left: 909px;
+  top: 100px;
+}
+
+.perfume2 {
+  position: absolute;
+  width: 474px;
+  height: 650px;
+  left: 1200px;
+  top: 25px;
+}
+
+.quadrados {
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  align-items: center;
+}
+
+.quadrados span {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #828282;
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.quadrados span:nth-child(2) {
+  width: 22px;
+  height: 22px;
+  background-color: black;
+}
+
+a {
+  list-style: none;
+}
+
+.setas {
+  position: absolute;
+  bottom: 14px;
+  right: 0;
+}
+
+.setas a {
+  color: white;
+  padding: 15px;
+  background-color: black;
+}
+
+footer {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 18px 32px 24px 32px;
+  border: 2px solid #c4c4c4;
+  padding-right: 25px;
+}
+
+.herbia {
+  width: 235px;
+  height: 56px;
+}
+
+.mz-preto {
+  width: 164px;
+  height: 126px;
+}
+
+.beyoung {
+  width: 217px;
+  height: 70px;
+}
+
+.skala {
+  width: 134px;
+  height: 48px;
+}
+
+.griffus {
+  width: 176px;
+  height: 62px;
+}
+
+.arvensis {
+  width: 149px;
+  height: 56px;
+}
+
+.organico {
+  width: 168px;
+  height: 87px;
+}
