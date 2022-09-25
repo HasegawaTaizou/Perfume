@@ -135,6 +135,19 @@ footer {
   margin: 18px 32px 24px 32px;
   border: 2px solid #c4c4c4;
   padding-right: 25px;
+  position: relative;
+}
+
+.escolher-marca {
+  position: absolute;
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #000000;
+  background-color: white;
+  bottom: 70px;
+  padding: 0px 150px;
+  right: 680px;
 }
 
 .herbia {
